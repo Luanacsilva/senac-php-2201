@@ -6,7 +6,7 @@
 include 'funcoesAluno.php';
 
 $matricula = $_POST['matricula'];
-$aluno = $_POST['aluno'];
+                                                        $aluno = $_POST['aluno'];
 
 if (cadastraAluno(['matricula' => $matricula, 'nome' =>$aluno])){
 
