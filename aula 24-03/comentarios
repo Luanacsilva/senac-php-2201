@@ -1,0 +1,6 @@
+$database = new PDO($dns,$user,$pass);
+// chama a classe
+
+
+$update = $database->exec('UPDATE tarefas SET descricao = "Fazer novamente " WHERE id = 23;');
+// altera banco de dados 
